@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>TABELA RBG</title>
+    
+</head>
+
+<body>
+    <h1 class="title">Tabela RBG</h1>
+    <hr>
+
+    <div class="container">
+        <div>
+            <label for="red">(R) Vermelho:</label>
+            <input id="red-range" type="range" min="0" max="255" value="0"/>
+            <p>
+                <input id="red-text" type="text" value="0" disabled="disabled" />
+            </p>
+        </div>
+        
+        <div>
+            <label for="green">(G) Verde:</label>
+            <input id="green-range" type="range" min="0" max="255" value="0"/>
+            <p>
+                <input id="green-text" type="text" value="0" disabled="disabled" />
+            </p>
+        </div>
+
+        <div>
+            <label for="blue">(B) Azul:</label>
+            <input id="blue-range" type="range" min="0" max="255" value="0"/>
+            <p>
+            <input id="blue-text" type="text" value="0" disabled="disabled" />
+        </p>
+        </div>
+    </div>
+
+   
+        <div id="box-color">
+        </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
